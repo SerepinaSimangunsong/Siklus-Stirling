@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Media pembelajaran fisika interaktif tentang siklus Stirling, diagram P-V, kalor, usaha, dan efisiensi.">
+  <title>Web Kelompok Dua — Siklus Stirling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<header class="site-header">
+  <a class="brand" href="#beranda" aria-label="Web Kelompok Dua, beranda"><span class="brand-star">★</span><span><b>Web</b><small>KELOMPOK DUA</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+  <nav id="mainNav">
+    <a class="active" href="#beranda">Beranda</a><a href="#profil">Profil</a><a href="#tentang">Tentang</a>
+    <a href="#materi">Materi</a><a href="#animasi">Animasi</a><a href="#diagram">Diagram P–V</a>
+    <a href="#permasalahan">Permasalahan</a><a href="#studi-kasus">Studi Kasus</a><a href="#hipotesis">Hipotesis</a><a href="#analisis">Analisis Kasus</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="beranda">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="dot"></span> PLATFORM BELAJAR KELOMPOK DUA</p>
+    <h1>HELLO...<br>SELAMAT DATANG<br>DI WEBSITE <em>KAMI</em></h1>
+    <p class="hero-text">Belajar fisika menjadi lebih mudah dengan mengenal siklus Stirling melalui materi, visualisasi, dan diagram P–V.</p>
+    <a class="button button-light" href="#profil">Selanjutnya <span>⟶</span></a>
+  </div>
+  <div class="hero-visual">
+    <div class="mini-screen">
+      <p class="eyebrow">FISIKA</p><h2>Termodinamika</h2>
+      <svg class="mini-chart" viewBox="0 0 360 150" role="img" aria-label="Ilustrasi diagram tekanan dan volume"><path d="M40 20V120H330" fill="none" stroke="#fff" stroke-width="3"/><path d="M80 45L285 50L283 102L78 98Z" fill="none" stroke="#83d7ff" stroke-width="7"/><path d="M80 45L283 102" stroke="#ffbf52" stroke-width="5"/></svg>
+    </div>
+    <div class="student-row"><span>👩🏻‍🎓</span><span>👨🏽‍🎓</span><span>👩🏻‍💻</span><span>👨🏻‍🎓</span></div>
+    <p class="visual-caption">Belajar • Amati • Analisis</p>
+  </div>
+</section>
+
+    <section class="section profile-section" id="profil">
+    <div class="section-heading">
+        <p class="kicker">TEAM PENGEMBANG</p>
+        <h2>Profil <em>Kelompok</em></h2>
+        <p>
+            Kelompok Dua — Media Pembelajaran Fisika
+        </p>
+    </div>
+
+    <div class="profile-layout">
+
+        <!-- Daftar Anggota -->
+        <div class="profile-members">
+            <div class="profile-title">
+                <div class="profile-icon">👥</div>
+                <div>
+                    <h3>Anggota Kelompok</h3>
+                    <p>Mahasiswa pengembang media pembelajaran</p>
+                </div>
+            </div>
+
+            <div class="member-list">
+
+                <div class="member-item">
+                    <span class="member-number">01</span>
+                    <span>Serepina Simangunsong</span>
+                </div>
+
+                <div class="member-item">
+                    <span class="member-number">02</span>
+                    <span>Cinta Tri Tani Turnip</span>
+                </div>
+
+                <div class="member-item">
+                    <span class="member-number">03</span>
+                    <span>Fensa Putri Milya Siregar</span>
+                </div>
+
+                <div class="member-item">
+                    <span class="member-number">04</span>
+                    <span>Yeven Erwina Sinaga</span>
+                </div>
+
+                <div class="member-item">
+                    <span class="member-number">05</span>
+                    <span>Mario Ervin Saragih</span>
+                </div>
+
+                <div class="member-item">
+                    <span class="member-number">06</span>
+                    <span>Christin Sinaga</span>
+                </div>
+
+                <div class="member-item">
+                    <span class="member-number">07</span>
+                    <span>Enita Berudu</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Kartu Universitas -->
+        <div class="university-card">
+
+            <div class="university-logo">
+                <img
+                    src="photo1.jpeg"
+                    alt="Logo Universitas Negeri Medan"
+                    class="unimed-logo"
+                >
+            </div>
+
+            <h3>Universitas Negeri Medan</h3>
+
+            <p class="university-label">
+                UNIVERSITAS NEGERI MEDAN
+            </p>
+
+            <div class="university-divider"></div>
+
+            <p class="university-description">
+                Media Pembelajaran Fisika
+                <br>
+                Belajar, Berinovasi, dan Berkarya.
+            </p>
+
+            <span class="university-badge">
+                KELOMPOK DUA
+            </span>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="section intro-section" id="tentang">
+  <div><p class="kicker">MEDIA PEMBELAJARAN FISIKA</p><h2>Mempelajari Siklus<br>Stirling</h2><p>Perbedaan suhu dapat membantu mesin mengubah energi kalor menjadi usaha melalui empat proses termodinamika. Mari pelajari prosesnya secara bertahap.</p><a class="button" href="#materi">Belajar–Amati–Analisis <span>⟶</span></a></div>
+  <div class="engine-card"><p class="eyebrow">MESIN STIRLING</p><div class="engine"><div class="hot">SUMBER PANAS</div><div class="cold">SUMBER DINGIN</div><div class="piston"></div></div><div class="wheel">✳</div><div class="engine-base"></div></div>
+</section>
+
+<section class="section pale" id="materi">
+  <div class="section-heading split"><div><p class="kicker">05 — MATERI AJAR</p><h2>Mengenal siklus<br><em>Stirling.</em></h2></div><p>Siklus Stirling ideal terdiri dari dua proses isotermal dan dua proses isokhorik yang berlangsung berulang.</p></div>
+  <div class="concept-grid">
+    <article><p class="kicker orange">KONSEP UTAMA</p><h3>Apa itu siklus Stirling?</h3><p>Siklus Stirling adalah siklus termodinamika ideal yang menggunakan gas kerja dan melibatkan pertukaran kalor dengan sumber panas serta lingkungan yang lebih dingin. Dalam model ideal, regenerator menyimpan kalor sementara dan mengembalikannya pada tahap berikutnya.</p></article>
+    <aside class="formula-card"><p class="kicker">HUBUNGAN TERMODINAMIKA</p><strong>PV = nRT</strong><p>Persamaan gas ideal</p><hr><small>P = tekanan · V = volume<br>T = suhu mutlak · n = jumlah mol<br>R = konstanta gas ideal</small></aside>
+  </div>
+  <h3 class="subheading">Empat proses dalam satu siklus</h3>
+  <div class="process-cards">
+    <button class="process-card selected" data-step="0"><b>01</b><small>ISOTERMAL</small><strong>Ekspansi suhu tinggi</strong><span>Gas mengembang pada suhu tinggi yang tetap.</span></button>
+    <button class="process-card" data-step="1"><b>02</b><small>ISOKHORIK</small><strong>Pelepasan kalor</strong><span>Volume tetap, suhu gas menurun.</span></button>
+    <button class="process-card" data-step="2"><b>03</b><small>ISOTERMAL</small><strong>Kompresi suhu rendah</strong><span>Gas dikompresi pada suhu rendah yang tetap.</span></button>
+    <button class="process-card" data-step="3"><b>04</b><small>ISOKHORIK</small><strong>Penerimaan kalor</strong><span>Volume tetap, suhu gas meningkat.</span></button>
+  </div>
+</section>
+
+<section class="section" id="animasi">
+  <p class="kicker">VISUALISASI INTERAKTIF</p><h2>Jelajahi empat tahap siklus</h2><p class="lead">Pilih tahap untuk melihat perubahan yang dialami gas. Diagram ini adalah ilustrasi konsep, bukan simulasi numerik mesin nyata.</p>
+  <div class="explorer">
+    <div class="step-tabs"><button class="step-tab active" data-step="0">1. Ekspansi</button><button class="step-tab" data-step="1">2. Pendinginan</button><button class="step-tab" data-step="2">3. Kompresi</button><button class="step-tab" data-step="3">4. Pemanasan</button></div>
+    <div class="explorer-content"><div class="cylinder"><div class="gas-hot" id="gasVisual"></div><div class="moving-piston" id="pistonVisual"></div></div><div class="step-description"><span class="step-badge" id="stepBadge">Proses 1 dari 4</span><h3 id="stepTitle">Ekspansi isotermal (suhu tinggi)</h3><p id="stepText">Gas menyerap kalor dari sumber panas, mengembang pada suhu tetap, dan melakukan usaha pada lingkungan.</p><div class="fact-strip" id="stepFact">Suhu tetap • Volume bertambah • Q masuk</div><div class="button-row"><button class="button button-outline" id="prevStep">← Sebelumnya</button><button class="button" id="nextStep">Tahap berikutnya →</button></div></div></div>
+  </div>
+</section>
+
+<section class="section pale" id="diagram">
+  <p class="kicker">DIAGRAM TEKANAN–VOLUME</p><h2>Amati perubahan pada diagram P–V</h2><p class="lead">Diagram berikut memperlihatkan lintasan konseptual siklus Stirling. Ubah suhu reservoir untuk melihat perubahan batas efisiensi Carnot.</p>
+  <div class="lab-grid">
+    <div class="lab-card"><p class="kicker">01 — PARAMETER SISTEM</p><label for="hotTemp">Suhu reservoir panas <strong id="hotValue">600 K</strong></label><input id="hotTemp" type="range" min="350" max="900" value="600"><div class="range-labels"><span>350 K</span><span>900 K</span></div>
+      <label for="coldTemp">Suhu reservoir dingin <strong id="coldValue">300 K</strong></label><input id="coldTemp" type="range" min="250" max="500" value="300"><div class="range-labels"><span>250 K</span><span>500 K</span></div>
+      <hr><p class="kicker">BATAS EFISIENSI CARNOT</p><div class="efficiency" id="efficiency">50.0<small>%</small></div><div class="meter"><span id="meterFill"></span></div><p class="note" id="effNote">Batas ideal untuk Th = 600 K dan Tc = 300 K.</p><button class="button button-outline full" id="resetParams">Atur ulang parameter ↻</button></div>
+    <div class="lab-card chart-card"><p class="kicker">02 — DIAGRAM TEKANAN–VOLUME (P–V)</p><svg id="pvChart" viewBox="0 0 700 280" role="img" aria-label="Diagram tekanan terhadap volume"><g class="grid-lines"><path d="M55 30H670 M55 85H670 M55 140H670 M55 195H670 M55 250H670 M55 30V250 M208 30V250 M362 30V250 M516 30V250 M670 30V250"/></g><path d="M55 30V250H670" class="axis"/><path id="cycleArea" d="M110 70 C220 90 390 180 610 205 L610 105 C390 75 220 45 110 40Z" class="cycle-area"/><path id="cyclePath" d="M110 70 C220 90 390 180 610 205 L610 105 C390 75 220 45 110 40Z" class="cycle-line"/><path d="M110 40V70 M610 105V205" class="isochore"/><circle cx="110" cy="70" r="4" class="point p1"/><circle cx="610" cy="205" r="4" class="point p2"/><circle cx="610" cy="105" r="4" class="point p3"/><circle cx="110" cy="40" r="4" class="point p4"/><text x="55" y="18">P (relatif)</text><text x="650" y="272">V (relatif)</text><text x="116" y="62">1</text><text x="617" y="220">2</text><text x="617" y="98">3</text><text x="116" y="33">4</text></svg><div class="legend"><span>01 Ekspansi isotermal</span><span>02 Pendinginan isokhorik</span><span>03 Kompresi isotermal</span><span>04 Pemanasan isokhorik</span></div></div>
+  </div>
+  <div class="interpretation"><h3>Interpretasi</h3><p>Efisiensi Carnot adalah batas teoritis untuk mesin yang bekerja antara dua reservoir suhu. Mesin nyata biasanya memiliki efisiensi lebih rendah karena kehilangan kalor, gesekan, regenerasi yang tidak sempurna, dan faktor desain.</p></div>
+</section>
+
+<section class="section" id="permasalahan">
+  <div class="section-heading split"><div><p class="kicker">01 — CASE METHOD</p><h2>Masalah dalam<br><em>memahami siklus.</em></h2></div><p>Studi kasus berangkat dari kesulitan belajar yang perlu dianalisis, bukan sekadar menghafal definisi.</p></div>
+  <div class="case-grid"><article class="case-card"><p class="kicker orange">STUDI KASUS PEMBELAJARAN</p><h3>Mengapa empat proses pada siklus Stirling sulit dipahami siswa?</h3><p>Dalam pembelajaran termodinamika, beberapa siswa dapat menyebutkan istilah ekspansi dan kompresi, tetapi masih kesulitan membedakan proses isotermal dengan proses isokhorik. Ketika melihat diagram tekanan–volume (P–V), mereka belum selalu mampu menghubungkan bentuk kurva dengan perubahan suhu, tekanan, dan volume gas.</p><p>Akibatnya, siswa cenderung menghafal urutan proses tanpa memahami bagaimana kalor berpindah dan bagaimana kerja dihasilkan selama satu siklus.</p><div class="question-box"><b>❔ Pertanyaan pemecahan masalah</b><p>Bagaimana penggunaan diagram P–V dan penjelasan bertahap dapat membantu siswa memahami empat proses pada siklus Stirling secara konseptual?</p></div></article>
+    <aside class="focus-card"><h3>◎ Fokus permasalahan</h3><ul><li>Membedakan proses isotermal dan isokhorik</li><li>Menghubungkan diagram dengan perubahan besaran gas</li><li>Memahami aliran kalor dan kerja dalam satu siklus</li></ul><hr><small>Catatan: kasus ini merupakan skenario pembelajaran untuk dianalisis, bukan klaim hasil penelitian lapangan.</small></aside></div>
+</section>
+
+<section class="section pale" id="studi-kasus">
+  <p class="kicker">KALOR, USAHA, DAN EFISIENSI</p><h2>Bagaimana mesin mengubah energi?</h2><p class="lead">Mesin Stirling menerima energi dari sumber panas, menghasilkan sebagian sebagai usaha, dan melepaskan sebagian kalor ke sumber dingin.</p>
+  <div class="energy-flow"><div><b>Sumber panas</b><strong>Kalor masuk (Qin)</strong></div><span>→</span><div><b>Mesin Stirling</b><strong>Usaha bersih</strong></div><span>→</span><div><b>Lingkungan</b><strong>Kalor keluar (Qout)</strong></div></div>
+  <div class="two-column"><article><h3>Efisiensi termal</h3><div class="formula-strip">η = W<sub>net</sub> / Q<sub>in</sub> = 1 − Q<sub>out</sub> / Q<sub>in</sub></div><p>Untuk mesin kalor yang bekerja dalam satu siklus, usaha bersih berkaitan dengan selisih kalor masuk dan kalor keluar.</p></article><article><h3>Mengapa tidak 100%?</h3><p>Mesin nyata mengalami kehilangan kalor, gesekan mekanis, kebocoran, dan keterbatasan perpindahan kalor. Regenerator yang baik dapat membantu mengurangi kalor yang terbuang, tetapi tidak menghilangkan seluruh rugi-rugi.</p></article></div>
+</section>
+
+
+<section id="hipotesis" class="hipotesis-section">
+  <div class="section-label">02 — HIPOTESIS</div>
+
+  <h2>Dugaan yang <span>Dapat Diuji.</span></h2>
+
+  <p class="hipotesis-desc">
+    Hipotesis menghubungkan masalah pembelajaran dengan
+    strategi yang diperkirakan dapat membantu.
+  </p>
+
+  <div class="hipotesis-card">
+    <div class="hipotesis-icon">H₁</div>
+
+    <div class="hipotesis-content">
+      <div class="hipotesis-label">HIPOTESIS KERJA</div>
+
+      <h3>
+        Jika siswa mempelajari siklus Stirling melalui diagram
+        P–V yang dijelaskan tahap demi tahap, maka pemahaman
+        mereka terhadap perbedaan proses isotermal dan
+        isokhorik diperkirakan meningkat.
+      </h3>
+
+      <p>
+        Alasannya, visualisasi dapat membantu siswa mengaitkan
+        perubahan volume, tekanan, suhu, dan perpindahan kalor
+        pada setiap proses.
+      </p>
+    </div>
+  </div>
+
+  <div class="komentar-container">
+    <div class="komentar-header">
+      <span class="section-label">DISKUSI HIPOTESIS</span>
+      <h3>Bagian yang dapat diuji</h3>
+      <p>
+        Berikan komentar, saran, atau pendapatmu mengenai
+        hipotesis di atas.
+      </p>
+    </div>
+
+    <form id="komentarForm">
+      <div class="form-group">
+        <label for="namaKomentar">Nama</label>
+        <input
+          type="text"
+          id="namaKomentar"
+          placeholder="Masukkan nama kamu"
+          maxlength="60"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="isiKomentar">Komentar atau saran</label>
+        <textarea
+          id="isiKomentar"
+          placeholder="Tuliskan pendapatmu tentang hipotesis ini..."
+          rows="4"
+          maxlength="1000"
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit" class="btn-komentar">
+        Kirim Komentar →
+      </button>
+    </form>
+
+    <div class="daftar-komentar">
+      <h4>
+        Komentar Anggota
+        <span id="jumlahKomentar">0</span>
+      </h4>
+
+      <div id="komentarList">
+        <p class="komentar-kosong">
+          Belum ada komentar. Jadilah yang pertama berdiskusi!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="analisis">
+  <div class="section-heading split"><div><p class="kicker">03 — ANALISIS & PEMBAHASAN</p><h2>Mengurai masalah<br><em>secara ilmiah.</em></h2></div><p>Gunakan pertanyaan pemantik untuk menghubungkan teori termodinamika dengan kasus pembelajaran.</p></div>
+  <div class="analysis-grid"><article><b>A</b><h3>Identifikasi akar masalah</h3><p>Kesulitan tidak hanya terletak pada istilah, tetapi juga pada kemampuan menghubungkan diagram P–V dengan perubahan keadaan gas di setiap tahap.</p></article><article><b>B</b><h3>Hubungkan dengan teori</h3><p>Proses isotermal berlangsung pada suhu tetap, sedangkan proses isokhorik berlangsung pada volume tetap. Perbedaan kondisi ini memengaruhi bentuk lintasan pada diagram P–V.</p></article><article><b>C</b><h3>Alternatif pemecahan</h3><p>Guru dapat menggunakan diagram berwarna, tabel perbandingan setiap proses, serta pertanyaan prediksi sebelum menjelaskan perubahan besaran gas.</p></article></div>
+  <div class="quiz-card"><h3>Uji pemahaman singkat</h3><p>Dalam proses isokhorik, besaran apa yang tetap?</p><div class="quiz-options"><button data-answer="suhu">A. Suhu</button><button data-answer="volume">B. Volume</button><button data-answer="tekanan">C. Tekanan</button></div><p id="quizFeedback" aria-live="polite">Pilih satu jawaban untuk melihat umpan balik.</p></div>
+</section>
+
+<section class="section reflection" id="kesimpulan">
+  <p class="kicker">04 — REFLECTION</p><h2>Tarik <em>kesimpulan.</em></h2>
+  <div class="reflection-grid"><article><h3>Apakah hipotesis didukung?</h3><p>Gunakan hasil simulasi dan konsep termodinamika untuk menulis kesimpulan. Bedakan hasil model ideal dari kinerja mesin nyata.</p><ul><li>Hubungkan suhu panas dan dingin dengan efisiensi.</li><li>Jelaskan fungsi regenerator.</li><li>Sebutkan keterbatasan model.</li></ul></article><article><label for="conclusion">KESIMPULAN KELOMPOK</label><textarea id="conclusion" placeholder="Berdasarkan simulasi, kami menyimpulkan bahwa..."></textarea><div class="conclusion-footer"><span id="wordCount">0 kata</span><button class="button mint" id="saveConclusion">Simpan kesimpulan ↗</button></div><p id="saveMessage" aria-live="polite"></p></article></div>
+</section>
+
+<div class="social-buttons">
+  <a
+    href=https://github.com/SerepinaSimangunsong/Tugas-Kelompok-Web-Sederhana.git
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn btn-github">
+    <i class="fa-brands fa-github"></i>
+    GitHub
+  </a>
+
+  <a
+    href="https://chatgpt.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn btn-chatgpt">
+    <i class="fa-solid fa-robot"></i>
+    ChatGPT
+  </a>
+</div>
+
+</main>
+<footer><span>★ WEB KELOMPOK DUA</span><span>Media Pembelajaran Fisika · Siklus Stirling</span><div><a href="#materi">Materi</a><a href="#diagram">Diagram P–V</a><a href="#analisis">Analisis</a></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
